@@ -48,7 +48,7 @@ public class LibroRepository {
         int id = 0;
         int idPosicion = 0;
         //recorrer la lista para hasta encontrar el id y guardar su posición
-        for(int i=0; i < listaLibros.size(), i++){
+        for(int i=0; i < listaLibros.size(); i++){
             //si los id coinciden
             if(listaLibros.get(i).getId() == lib.getId()){
                 id = lib.getId();

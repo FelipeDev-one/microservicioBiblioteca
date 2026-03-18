@@ -8,12 +8,13 @@ import org.springframework.stereotype.Service;
 import com.example.bibliotecaduoc.model.Libro;
 import com.example.bibliotecaduoc.repository.LibroRepository;
 
-@Service
+@Service //anotación obligatoria para todos los servicios, se comunica con el controlador y el repositorio
 
 public class LibroService {
 
-    @Autowired
+    @Autowired //anotación que se comunica con el repositorio para usar sus funciones
     private LibroRepository LibroRepository;
+
     //función para traer todos los libros del repositorio
     public List<Libro> getLibros (){
         return LibroRepository.obtenerLibros();

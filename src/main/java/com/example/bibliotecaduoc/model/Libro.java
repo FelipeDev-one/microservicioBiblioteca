@@ -1,7 +1,7 @@
 package com.example.bibliotecaduoc.model;
 
 import lombok.AllArgsConstructor; //Crea método constructor con todos los parametros 
-import lombok.Data; //Genera Getter, Setter, ToString, Encampsulamiento de variables
+import lombok.Data; //Genera Getter, Setter, ToString, Encapsulamiento de variables
 import lombok.NoArgsConstructor; //crea el constructor vacio
 
 @Data
